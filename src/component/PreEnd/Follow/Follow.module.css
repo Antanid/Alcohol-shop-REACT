@@ -1,0 +1,35 @@
+.follow{
+    margin-top: 20px;
+    min-height: 125px;
+    max-width: 550px;
+    background: black;
+}
+
+.follow__text{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.ins{
+    display: flex;
+    justify-content: center;
+}
+.ins li{
+    list-style-type: none; 
+   
+}
+.ins li a{
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.ins li a:hover{
+    text-decoration: underline white 1px;
+}

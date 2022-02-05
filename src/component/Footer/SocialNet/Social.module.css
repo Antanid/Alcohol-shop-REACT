@@ -1,0 +1,23 @@
+.explore__text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-top: 55px;
+    padding-left: 30px;
+}
+.explore__foot li{
+    list-style-type: none;
+    padding-top: 21px;
+}
+
+.explore__foot li a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color:#FFFFFF99;   
+}
+.explore__foot li a:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+}

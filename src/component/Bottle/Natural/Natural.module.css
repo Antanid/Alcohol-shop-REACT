@@ -1,0 +1,21 @@
+.made__textdiv{
+    margin-top: 90px;
+}
+
+.made_p{
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+
+.made__text{
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bolder;
+}

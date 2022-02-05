@@ -1,0 +1,45 @@
+.our__bottle{
+    border-bottom: 1px solid black;
+}
+
+.our__kit{
+    margin-top: 82px;
+}
+
+.our__text{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    line-height: 44px;
+    margin-top: 18px;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.our__p{
+    font-size: 16px;
+    color: #000000;
+    line-height: 28px;
+    text-align: center;
+}
+.but{
+    text-align: center;
+}
+.our__button{
+    background: black;
+    color: #ffffff;
+    min-width: 180px;
+    min-height: 52px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+}
+
+.our__button:hover{
+    border: 1px solid black;
+    background: #ffffff;
+    color: #000000;
+    transition: all 0.3s;
+}

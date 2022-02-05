@@ -1,0 +1,21 @@
+.policy ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.policy ul li{
+    margin-right: 60px;
+    margin-top: 140px;
+}
+
+.policy ul li a{
+    text-decoration: none;
+    color: #FFFFFF99;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.policy ul li a:hover{
+    transition: all 0.3s;
+    color: #ffffff;
+}

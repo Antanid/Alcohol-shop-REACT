@@ -1,0 +1,29 @@
+/*First*/
+.nav{
+    background-image: url(./Rectangleheader.png);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    min-height: 800px;   
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+.tittle__menu{
+    margin-left: 64px;
+    padding-top: 40px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+.menu li a:hover{
+    color: #ffa806;
+    font-size: 14px;
+    transition: all 0.3s;
+}

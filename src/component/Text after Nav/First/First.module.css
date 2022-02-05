@@ -1,0 +1,13 @@
+.main__text{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+    margin-top: 59px;
+}
+.main{
+    border-bottom: 1px solid #BDBDBD;
+    min-height: 210px;
+}
+.Rectangle{
+    margin-top: 34px;
+}

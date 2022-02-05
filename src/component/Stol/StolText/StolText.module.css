@@ -1,0 +1,29 @@
+.drink{
+    padding-top: 60px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.drink__text{
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+.drink__h3{
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+.drink__p{
+    
+    font-size: 18px;
+    line-height: 32px;
+}
+.drink__text1{
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 120px;
+}

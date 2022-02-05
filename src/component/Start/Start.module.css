@@ -1,0 +1,14 @@
+.orders{
+    max-height: 45px;
+    text-align: center;
+    color: #ffffff;  
+}
+.text__orders{
+    font-size: 14px;
+    line-height: 40px;
+    
+}
+.start{
+    background: #191919;
+    max-height: 50px;
+}

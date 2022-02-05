@@ -1,0 +1,95 @@
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper{
+    overflow: hidden;
+}
+
+
+@media (max-width: 575px){
+    .text__orders{
+        font-size: 15px;
+    }
+    .menu li{
+        margin-left: 0;
+    }
+    .menu li a{
+        margin-right: 18px;
+        font-size: 17px;
+        justify-content: center;
+    }
+    .menu2 li a{
+        justify-content: center;
+     font-size: 17px;  
+     margin-right: -44px
+    }
+    .text h1{
+        font-size: 60px;
+        min-width: auto;
+    }
+    .main__text{
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    .main img{
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    .made_p{
+        font-size: 16px;
+    }
+    .our__kit{
+    margin-top: 0px;
+    }
+    
+    #article{
+        min-height: 850px;
+    }
+    .susan__text{
+        margin: 0 auto;
+    }
+    .susan__h3{
+        margin: 0 auto;
+    }
+    .susan__p{
+        margin: 0 auto;
+    }
+    .policy ul li{
+        margin-right: 24px;
+    }
+    .drink__text1{
+        margin-top: 0px;
+    }
+    .producers__h3{
+        margin-top: 50px;
+    }
+  .explore{
+      min-width: 200px;
+  }
+ .button{
+     margin-bottom: 10px;
+ }
+ .text p{
+     font-size: 17px;
+ }
+ .itro__text{
+     font-size: 44px;
+ }
+ .drink__text{
+     margin-top: 25px;
+ }
+ .drink__p{
+     margin-bottom: 25px;
+ }
+ .tittle__stol {
+     padding-top: 5px;
+     border-top: none;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #BDBDBD;
+ }
+ .input__email{
+     min-width: 280px;
+ }
+    }

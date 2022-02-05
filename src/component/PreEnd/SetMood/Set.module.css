@@ -1,0 +1,40 @@
+
+.mood{
+    max-width: 550px;
+    min-height: 300px;
+    background: black;
+    margin-top: 60px;
+}
+.mood__text{
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.mood__h5{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.mood__butt{
+    min-height: 52px;
+    min-width: 180px;
+    background: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+.mood__butt:hover{
+    background: #000000;
+    border: 1px solid white;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.knopka{
+    text-align: center;
+    margin-top: 25px;
+}

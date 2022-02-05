@@ -1,0 +1,30 @@
+.producers__text{
+    margin-top: 60px;
+    font-family: 'DM Serif Display', serif;
+    color: #000000;
+    font-size: 56px;
+    line-height: 80px;
+    max-width: 600px;
+    font-weight: bold;
+}
+.producers__h3{
+    font-size: 18px;
+    line-height: 32px; 
+    margin-top: 150px;
+}
+.producers__h5{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.producers__h5 a{
+    text-decoration: none;
+    color: #000000;
+}
+.producers__h5 a:hover{
+    font-size: 13px;
+    transition: 0.3s;
+    color: #000000; 
+}
