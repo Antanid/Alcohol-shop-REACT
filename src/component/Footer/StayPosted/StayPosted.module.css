@@ -21,16 +21,13 @@
     background: none;
     border: none;
     min-width: 420px;
-    font-size: 9px;
+    font-size: 14px;
     color: #818181;
     border-bottom: 1px solid white;
     padding-bottom: 10px;
 }
 
-.input__email:hover{
-    font-size: 10px;
-    transition: 0.3s;
-}
+
 
 .input__butt{
     background: none;

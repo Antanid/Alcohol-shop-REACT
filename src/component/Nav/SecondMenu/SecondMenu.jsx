@@ -1,12 +1,13 @@
+import { NavLink } from 'react-router-dom';
 import s from './SecondMenu.module.css';
 let Second = () => {
     return (
         <div class="col-lg-6">
             <div class={s.modern1}>
                 <ul class={s.menu2}>
-                    <li className={s.tittle__menu2}><a href="/">NEWSLETTER</a></li>
-                    <li className={s.tittle__menu2}><a href="/">ACCOUNT</a></li>
-                    <li className={s.tittle__menu2}><a href="/">CART</a></li>
+                    <li className={s.tittle__menu2}><NavLink to="/Newsletter">NEWSLETTER</NavLink></li>
+                    <li className={s.tittle__menu2}><NavLink to="/Account">ACCOUNT</NavLink></li>
+                    <li className={s.tittle__menu2}><NavLink to="/Cart">CART</NavLink></li>
                 </ul>
 
                 <div className={s.text}>
