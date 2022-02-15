@@ -1,8 +1,18 @@
 import s from './StolText.module.css';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import aos from 'aos';
+
 let StolText = () => {
+
+    useEffect(() => {
+        aos.init({ duration: 600 });
+      }, [])
+
+
     return (
         <div class="col-lg-4">
-            <div className={s.drink}>
+            <div data-aos='slide-right' className={s.drink}>
                 <h4 className={s.drink__text1}>Easy to drink</h4>
                 <p className={s.drink__p}>The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
                 <h3 className={s.drink__h3}>Natural ingredients. Nothing fake.</h3>

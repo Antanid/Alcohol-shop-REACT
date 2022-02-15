@@ -1,7 +1,16 @@
 import s from './Follow.module.css';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import aos from 'aos';
+
 let Follow = () => {
+
+    useEffect(() => {
+        aos.init({ duration: 600 });
+      }, [])
+
     return (
-        <div className={s.follow}>
+        <div data-aos='zoom-out-right' className={s.follow}>
             <h5 className={s.follow__text}>Follow us, share us, drink Ha(us)</h5>
             <div className={s.ul}>
                 <ul className={s.ins}>
