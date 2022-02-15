@@ -5,6 +5,7 @@
     object-fit: fill;
     min-height: 800px;   
     background-size: cover;
+    margin-left: -0.75rem;
 }
 .menu{
     display: flex;
@@ -26,4 +27,23 @@
     color: #ffa806;
     font-size: 14px;
     transition: all 0.3s;
+}
+
+
+@media (max-width: 576px){
+    .nav{
+        margin-right: -0.75rem;
+    }
+}
+
+@media (min-width: 768px){
+    .nav{
+        margin-right: -0.75rem;
+    }
+}
+
+@media (min-width: 992px){
+    .tittle__menu{
+        margin-left: 40px;
+    }
 }

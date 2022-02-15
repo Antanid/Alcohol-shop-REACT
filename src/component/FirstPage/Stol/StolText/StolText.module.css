@@ -27,3 +27,20 @@
     line-height: 44px;
     margin-top: 120px;
 }
+
+@media (max-width: 576px){
+    .drink__text1{
+        margin-top: 0px;
+    }
+    
+}
+
+
+@media (min-width: 992px){
+    .drink__text1{
+        margin-top: 0px;
+    }
+    .drink__p{
+        font-size: 16px;
+    }
+}

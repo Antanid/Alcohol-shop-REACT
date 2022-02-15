@@ -11,7 +11,7 @@ let BottleThree = () => {
       }, [])
 
     return (
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-12">
             <div  data-aos='zoom-in-right' className={s.our_bottle}>
                 <img className={s.our__kit} src={Citrus} alt=""/>
                     <h3 className={s.our__text}>Citrus Flower</h3>

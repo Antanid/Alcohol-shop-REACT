@@ -38,3 +38,21 @@
     text-align: center;
     margin-top: 25px;
 }
+
+
+
+@media (max-width: 576px){
+    .mood__text{
+        font-size: 53px;
+    }
+    .mood__h5{
+        font-size: 14px;
+    }
+}; 
+
+@media (min-width: 768px){
+    .mood{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

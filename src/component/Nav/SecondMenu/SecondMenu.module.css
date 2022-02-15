@@ -61,5 +61,27 @@
 }
 .modern1{
     background-color: #996B60;
-    min-height: 800px;   
+    min-height: 800px;  
+    margin-right: -0.75rem; 
+}
+
+@media (max-width: 575.98px){
+    .modern1{
+        margin-left: -0.75rem;  
+    }
+    .tittle__text{
+        font-size: 62px;
+    }
+    .tittle__p{
+        margin-right: 35px;
+    }
+    .button{
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 768px){
+    .modern1{
+        margin-left: -0.75rem;
+    }
 }

@@ -43,3 +43,16 @@
     color: #000000;
     transition: all 0.3s;
 }
+
+@media (min-width: 768px){
+    .our__kit{
+        margin-left: 150px;
+    }
+  
+}
+
+@media (min-width: 992px){
+    .our__kit{
+       margin-left: 0px;
+    }
+}

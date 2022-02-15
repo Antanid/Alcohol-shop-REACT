@@ -19,3 +19,10 @@
     font-family: 'DM Serif Display', serif;
     font-weight: bolder;
 }
+
+@media (max-width: 576px){
+    .made__text{
+        font-size: 60px;
+    }
+    
+}

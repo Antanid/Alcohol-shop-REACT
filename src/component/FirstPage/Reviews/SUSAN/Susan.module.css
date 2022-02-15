@@ -23,3 +23,22 @@
     max-width: 300px;
     padding-top: 10px;
 }
+
+@media (max-width: 575.98px){
+    .susan{
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 768px){
+    .susan__text{
+        margin: 0 auto;
+    }
+    .susan__h3{
+        margin: 0 auto;
+    }
+    .susan__p{
+        margin: 0 auto;
+    }
+}

@@ -28,3 +28,18 @@
     transition: 0.3s;
     color: #000000; 
 }
+
+
+@media (max-width: 576px){
+    .producers__text{
+        font-size: 53px;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .producers__h3{
+        margin-top: 90px;
+    }
+}
+

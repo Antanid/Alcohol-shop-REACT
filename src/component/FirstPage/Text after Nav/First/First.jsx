@@ -13,7 +13,7 @@ let Firstt = () => {
   }, [])
 
   return (
-    <div data-aos='flip-down' class="col-lg-4 col-sm-12">
+    <div data-aos='flip-down' class="col-lg-4 col-sm-12 ">
       <div class={s.main}>
 
         <h4 class={s.main__text}>

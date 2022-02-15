@@ -33,3 +33,11 @@
 .ins li a:hover{
     text-decoration: underline white 1px;
 }
+
+
+@media (min-width: 768px){
+    .follow{
+    
+        margin-top: 20px;
+    }
+}

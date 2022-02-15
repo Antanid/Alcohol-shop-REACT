@@ -34,3 +34,18 @@
     color: #ffffff;
     border: none;
 }
+
+
+@media (max-width: 576px){
+    .input__email{
+        min-width: 280px;
+    }
+    .input__butt{
+        width: 265px;
+        margin-left: 8px;
+        border: 1px solid;
+        padding: 20px;
+        margin-top: 16px;
+    }
+    
+}

@@ -11,3 +11,20 @@
 .Rectangle{
     margin-top: 34px;
 }
+
+@media (min-width: 768px){
+    .main__text{
+        margin: 0 auto;
+        padding-top: 46px;
+    }
+    .Rectangle{
+        margin-left: 183px;
+        margin-top: 34px;
+    }
+}
+
+@media (min-width: 992px){
+    .Rectangle{
+        margin-left: 0;
+    }
+}

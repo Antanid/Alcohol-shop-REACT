@@ -12,7 +12,7 @@ let BottleOne = () => {
       }, [])
 
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4 col-md-12">
             <div data-aos='zoom-in-right' className={s.our_bottle}>
             <img className={s.our__kit} src={Kit} alt="1" />
                 <h3 className={s.our__text}>The Sampler Kit</h3>
