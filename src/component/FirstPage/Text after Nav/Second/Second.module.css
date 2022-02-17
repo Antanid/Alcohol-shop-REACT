@@ -14,6 +14,17 @@
     min-height: 210px;
 }
 
+
+@media (max-width: 575.98px){
+    .main__text{
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    .ny{
+        margin-left: 30px;
+    }
+}
+
 @media (min-width: 768px){
     .main__text{
         margin: 0 auto;

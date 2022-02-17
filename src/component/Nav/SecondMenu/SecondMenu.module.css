@@ -1,31 +1,10 @@
 /*****Second*/
 
-.menu2{
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
 
-.menu2 li{
-    margin-right: 64px;
-    padding-top: 40px;
-}
-
-.menu2 li a{
-    text-decoration: none;
-    font-size: 12px;
-    color: #ffffff;
-}
-
-.menu2 li a:hover{
-    color: #ffa806;
-    font-size: 14px;
-    transition: all 0.3s;
-}
 
 .text{
     padding-left: 69px;
-    margin-top: 200px;
+  
 
 }
 
@@ -68,6 +47,7 @@
 @media (max-width: 575.98px){
     .modern1{
         margin-left: -0.75rem;  
+        min-height: 742px;
     }
     .tittle__text{
         font-size: 62px;
@@ -79,9 +59,17 @@
         margin-bottom: 18px;
     }
 }
+@media (min-width: 576px){
+    .modern1{
+        margin-left: -0.75rem;
+    }
+}
 
 @media (min-width: 768px){
     .modern1{
         margin-left: -0.75rem;
+    }
+    .tittle__text{
+        padding-top: 90px;
     }
 }
